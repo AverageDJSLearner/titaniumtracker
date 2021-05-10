@@ -1,8 +1,27 @@
 {
-    "dependencies": {
-        "chalk": "^4.1.1",
-        "cjs": "^0.0.11",
-        "discord.js": "^12.5.3",
-        "fs": "*"
-    }
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cjs": "^0.0.11",
+    "discord.js": "^12.5.3",
+    "fs": "*"
+  },
+  "name": "titaniumtracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AverageDJSLearner/titaniumtracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AverageDJSLearner/titaniumtracker/issues"
+  },
+  "homepage": "https://github.com/AverageDJSLearner/titaniumtracker#readme",
+  "description": ""
 }
