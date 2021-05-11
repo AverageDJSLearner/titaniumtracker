@@ -72,7 +72,7 @@ console.log(plantNeedsWater('Tuesday'));
         * * const identifier = (parameter1, parameter2) => {
         * *
         * * }
-            1.1.2 A arrow functions' body composed of a single-line block does not need curly braces. On this type of function, whatever that line evaluates will be automatically returned to the function call.
+            1.1.2 A arrow functions' body composed of a single-line block does not need curly braces. On this type of function, whatever that line evaluates to will be automatically returned to the function call.
         * ! Single-line code block arrow function
         * * const sumNumber = number => number + number;
         * ! Multi-line code block arrow function
