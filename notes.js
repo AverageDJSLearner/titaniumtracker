@@ -116,7 +116,9 @@ console.log(plantNeedsWater('Tuesday'));
   * TODO Output would be the character W
  * ! Type of arrays
         1. 'Array Literals'
+            1.1
+        * *['array'];
         2. Arrays pertinent to variables
-
-
+            1.1
+        * * let array = ['array'];
 **/
