@@ -13,12 +13,12 @@
 function multiplyByNineFifths(number) {
     return number * (9 / 5);
     /*multiplyByNineFifths receives our initial input (15), multiplies it by nine fifths and returns the result to the code block which called the function*/
-};
+}
 
 function getPrice(price) {
     return multiplyByNineFifths(price) + 32;
     /*We pass our 'price' variable to multiplyByNineFifths, receive our 'price' variable multiplied by nine fifths and then we add 32 to it*/
-};
+}
 
 getPrice(15);
 
