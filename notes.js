@@ -22,7 +22,7 @@ function getPrice(price) {
 
 getPrice(15);
 
-/*AA method calling a function and using the value returned*/
+/*A method calling a function and using the value returned*/
 
 const plantNeedsWater = function(day) {
     if (day === 'Wednesday') {
@@ -82,6 +82,41 @@ console.log(plantNeedsWater('Tuesday'));
         * * }
 */
 
-/*  When calling a function, the computer will run the code within the functions' body and evalaute the result of calling the function. By default, the resulting value is undefined, and the resulting value is always returned to the function call. 
-
+/*  When calling a function, the computer will run the code within the functions' body and evalaute the result of calling the function. By default, the resulting value is undefined, and the resulting value is always returned to the function call.
 */
+
+
+/* Arrays */
+
+/** 
+ * ! Arrays info
+        1. Arrays can store any data type -- values, integers, booleans; anything!
+            1.1 Each element inside an array (an arrays' limitation is defined by its '[]' brackets) is considered an element of the array.
+                1.1.1 Each one of these elements has a numbered position which is known as their index. Java-scripts arrays are zero-indexed, meaning that the first elements' index of an array is 0, and the second is 1.
+                    1.1.1.1 Trying to adress an unexistent-index of any array will return undefined
+        2. You may reassign a given element of an array by adressing its identifier and it's element, plus the new value you want it to hold.
+        3. If an array is created through a let variable, you may reassign the entire array. If the array was created through a constant, you may reassign a certain index, but you will not be able to reassign the entire array.
+        4. Arrays also have built-in properties.
+            4.1 One of them is the .length function, which returns the amount of elements that there is on the array.
+            4.2 .push() is a built-in method for arrays that add new elements to the end of the array. arrayIdentifier.push(element1, element2) will result on arrayIdentifier having two new elements.
+            4.3 .pop() is a built-in method for arrays that remove the last element of the array and returns the element to the call. arrayIdentifier.pop(); will return the element and remove it from the array.
+     * *const Array = ['Your Mom', 'Lmao', 'XD'];
+     * *console.log(Array.length);
+     * TODO Output is 3
+       5. One may also create nested arrays. A nested array is an array within an array. To access nested array, we can use bracket notation with the index value
+     * *const nestedArr = [[1], [2, 3]];
+     * *console.log(nestedArr[1]);
+     * TODO Output is [2, 3]
+     * *const nestedArr = [[1], [2, 3]];
+     * *console.log(nestedArr[1][0]);
+     * TODO Output: 2
+  * ! You may also access individual characters of a string using bracket notation and the index of the character you wanna adress. 
+  * * const hello = 'Hello World!';
+  * * console.log(hello[6]);
+  * TODO Output would be the character W
+ * ! Type of arrays
+        1. 'Array Literals'
+        2. Arrays pertinent to variables
+
+
+**/
