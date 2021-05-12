@@ -3,5 +3,18 @@
         "activityBar.background": "#3E2440",
         "titleBar.activeBackground": "#563359",
         "titleBar.activeForeground": "#FCF9FC"
-    }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "trainingdays.js": true,
+        "package-lock.json": true,
+        "package.json": true,
+        "getenoughsleep.js": true,
+        ".gitignore": true
+    },
+    "explorerExclude.backup": null
 }
