@@ -17,7 +17,7 @@ function multiplyByNineFifths(number) {
 
 function getPrice(price) {
     return multiplyByNineFifths(price) + 32;
-    /*We pass our 'price' variable to multiplyByNineFifths, receive our 'price' variable multiplied by nine fifths and then we add 32 to it*/
+    /*We pass our 'price' value to multiplyByNineFifths, returns our 'price' variable multiplied by nine fifths and then we add 32 to it*/
 }
 
 getPrice(15);
@@ -37,7 +37,7 @@ console.log(plantNeedsWater('Tuesday'));
 /**
  * ! There are multiple ways of declaring functions:
     1. Through the usage of the function method
-    * * function IDENTIFIER(parameters){
+    * * function IDENTIFIER(param1, param2, param3){
     * *
     * * }
         1.1 You may pass parameters to a function - these parameters will be variables that will exist within the code block of the function.
@@ -45,7 +45,7 @@ console.log(plantNeedsWater('Tuesday'));
       * *
       * * }
             1.1.1 You may assign default values to parameters
-                * * function IDENTIFIER(param1 = 69, param2 = 42, param3 = 309){
+                * * function IDENTIFIER(param1 = 69, param2 = 'sex', param3 = false){
                 * *
                 * * }
     2. Through the expression of a function - if we are declaring a function on this way, we can skip the function identifier, as our function could be identified with our variable identifier. This function would be known as an 'anonymous function'.
@@ -88,7 +88,7 @@ console.log(plantNeedsWater('Tuesday'));
 
 /* Arrays */
 
-/** 
+/**
  * ! Arrays info
         1. Arrays can store any data type -- values, integers, booleans; anything!
             1.1 Each element inside an array (an arrays' limitation is defined by its '[]' brackets) is considered an element of the array.
@@ -96,24 +96,24 @@ console.log(plantNeedsWater('Tuesday'));
                     1.1.1.1 Trying to adress an unexistent-index of any array will return undefined
         2. You may reassign a given element of an array by adressing its identifier and it's element, plus the new value you want it to hold.
         3. If an array is created through a let variable, you may reassign the entire array. If the array was created through a constant, you may reassign a certain index, but you will not be able to reassign the entire array.
-        4. Arrays also have built-in properties.
+        4. Arrays have built-in properties.
             4.1 One of them is the .length function, which returns the amount of elements that there is on the array.
             4.2 .push() is a built-in method for arrays that add new elements to the end of the array. arrayIdentifier.push(element1, element2) will result on arrayIdentifier having two new elements.
             4.3 .pop() is a built-in method for arrays that remove the last element of the array and returns the element to the call. arrayIdentifier.pop(); will return the element and remove it from the array.
-     * *const Array = ['Your Mom', 'Lmao', 'XD'];
-     * *console.log(Array.length);
-     * TODO Output is 3
+     * *const array = ['Your Mom', 'Lmao', 'XD'];
+     * *console.log(array.length);
+     * ? Output is 3
        5. One may also create nested arrays. A nested array is an array within an array. To access nested array, we can use bracket notation with the index value
      * *const nestedArr = [[1], [2, 3]];
      * *console.log(nestedArr[1]);
-     * TODO Output is [2, 3]
+     * ? Output is [2, 3]
      * *const nestedArr = [[1], [2, 3]];
      * *console.log(nestedArr[1][0]);
-     * TODO Output: 2
+     * ? Output: 2
   * ! You may also access individual characters of a string using bracket notation and the index of the character you wanna adress. 
   * * const hello = 'Hello World!';
   * * console.log(hello[6]);
-  * TODO Output would be the character W
+  * ? Output would be the character W
  * ! Type of arrays
         1. 'Array Literals'
             1.1
