@@ -181,3 +181,7 @@ for(let i = 0; i < bobsFollowers.length; i++) {
     }
 }
 */
+
+/* My understanding of programming:
+ ! Learning to program is learning how to express most tasks and process all of us do on a daily basis, on a dialectic way.
+*/
