@@ -121,4 +121,63 @@ console.log(plantNeedsWater('Tuesday'));
         2. Arrays pertinent to variables
             1.1
         * * let array = ['array'];
-**/
+*/
+
+/*
+ ! Loops Info
+            1. A loop is a tool that repeats until a specified condition - often known as stopping condition - is reached.
+                x.1  To loop through an array, it is recommended to use the array's length property to check whatever we should stop iterating over it.
+                x.2 Nested loops - nested loops are loops that run within the code block of another loop.
+                x.3 One may break out of a loop block at any time using the 'break;' call
+ ! Type of loops
+            1. The 'for' loop includes an iterator variable that appears in all three expressions. TThe iterator variable is initialized, checked against the stopping condition, and assigned a new value on each loop iteration.
+                1.1 'for' loops contains three expresions separated from each other by ';' inside the parentheses:
+                    1.1.1 an initialization starts the loop and can also be used to declare the iterator variable.
+                    1.1.2 a stopping condition is the condition that the iterator variable is evaluated against— if the condition evaluates to true the code block will run, and if it evaluates to false the code will stop.
+                    1.1.3 an iteration statement is used to update the iterator variable on each loop.
+                ?         for (let counter = 0; counter < 4; counter++) {
+                ?           console.log(counter);
+                ?         }
+            2. The 'while' loop which allows for a single parameter: the stopping condition. This loop will run until the condition has been met.
+            ?  let condition = 1;
+            ?  while(condition <= 3) {
+            ?   condition++;
+            ?  }
+            3. The 'do' loop allows to run a code block once, and if paired with 'while', you can run the code until a specific condition is met.
+            ?  let string = '';
+            ?  let i = 0;
+            ?  do {
+            ?   string = string + i;
+            ?   i++
+            ?  } while(i < 10)
+            TODO So you may be wondering when to use a while loop! The syntax of a for loop is ideal when we know how many times the loop should run, but we don’t always know this in advance. Think of eating like a while loop: when you start taking bites, you don’t know the exact number you’ll need to become full. Rather you’ll eat while you’re hungry. In situations when we want a loop to execute an undetermined number of times, while loops are the best choice.
+}
+
+*/
+
+/* Interesting code
+
+
+const cards = ['diamond', 'spade', 'heart', 'club'];
+let currentCard;
+
+while (currentCard != 'spade') {
+  currentCard = cards[Math.floor(Math.random() * 4)];
+  console.log(currentCard);
+}
+
+// a
+
+const bobsFollowers = ['boofy', '2nfg', 'pxblo', '15h'];
+const tinasFollowers = ['2nfg', '15h', 'tiredalbert'];
+
+const mutualFollowers = [];
+
+for(let i = 0; i < bobsFollowers.length; i++) {
+    for(let j = 0; j < tinasFollowers.length; j++) {
+        if(bobsFollowers[i] === tinasFollowers[j]) {
+            mutualFollowers.push(j);
+        }
+    }
+}
+*/
